@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  background-color: #1098fd;
+  border-radius: 12px;
+  padding: 20px;
+  border: 5px ridge #0a0eff;
+  box-shadow: 0px 2px 12px #777;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.form-control {
+  border: none;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+input {
+  outline: none;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  font-size: 14px;
+  padding: 4px 8px;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 100px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: #1098fd;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+li p {
+  cursor: pointer;
+}
+
+.active {
+  padding-bottom: 2px;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.compare-container {
+  width: 80%;
+}
+
+.dougnut {
+  background-color: purple;
+  color: #fff;
+  padding: 12px 24px;
+}
+
+.pie {
+  background-color: orangered;
+  color: #fff;
+  padding: 12px 24px;
+}
+.chart-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.me-2 {
+  margin-right: 8px;
+}
+.me-2 {
+  margin-right: 16px;
+}
+.ms-2 {
+  margin-left: 8px;
+}
+.ms-3 {
+  margin-left: 16px;
+}
+
+.arrow-btn {
+  border-radius: 50%;
+  border: none;
+  padding: 16px;
+  background-color: #c221ba;
+  color: #fff;
+  cursor: pointer;
+}
+.arrow-btn:active {
+  transform: scale(0.98);
+}
